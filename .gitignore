@@ -1,0 +1,31 @@
+# Environment (berisi APP_KEY & password database, jangan di-commit)
+.env
+.env.backup
+.env.production
+
+# Dependencies
+/node_modules
+/vendor
+
+# Build & storage
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+
+# Testing
+.phpunit.result.cache
+/.phpunit.cache
+
+# IDE & OS
+/.idea
+/.vscode
+/.fleet
+/.zed
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log
+yarn-error.log
